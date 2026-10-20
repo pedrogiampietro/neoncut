@@ -1,0 +1,17 @@
+# Ambiente e caches
+.venv/
+__pycache__/
+*.pyc
+
+# Builds (PyInstaller / Inno Setup)
+build/
+dist/
+
+# Configuracao pessoal de quem roda pelo codigo
+config.json
+
+# Fundos: so os gerados pelo gerar_fundo.py vao para o repositorio.
+# Fotos de terceiros (ex.: Unsplash) nao podem ser redistribuidas em colecao.
+fundos/*
+!fundos/setup-*.jpg
+!fundos/setup-*.mp4
